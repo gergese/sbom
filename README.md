@@ -25,8 +25,8 @@ readelf -d /lib/x86_64-linux-gnu/libwrap.so.0 | grep NEEDED | awk -F'[][]|:' '{p
 ldconfig -p | grep libnsl.so.2 => 참조하는 동적 라이브러리 경로 확인
 ldconfig -p | grep libnsl.so.2 | awk '{print $NF}' => 경로만 출력
 
-재귀적으로 버전 확인
-동적 라이브러리 경로를 재귀적으로 전달
+2. 재귀적으로 버전 확인
+3. 동적 라이브러리 경로를 재귀적으로 전달
 
 sudo sysctl -w kernel.yama.ptrace_scope=0 => ptrace 차단
 중복제거
@@ -37,13 +37,13 @@ sudo sysctl -w kernel.yama.ptrace_scope=0 => ptrace 차단
 
 
 
-json으로 저장?
-라이브러리 이름, 경로, 버전 정보, 불러오는 것들의 정보
+4. json으로 저장
+5. 라이브러리 이름, 경로, 버전 정보, 불러오는 것들의 정보
 
 => sbom_json_filter.py - 라이브러리별 정보 저장
 => sbom_json_jsonParse.py - json 형식 정리
 
 
 
-apache 같은 서비스에서 자체적으로 사용하는 라이브러리, 참조하는데 사용하는 라이브러리, 리눅스 자체 내장 라이브러리를 구분
-json으로 저장
+6. apache 같은 서비스에서 자체적으로 사용하는 라이브러리, 참조하는데 사용하는 라이브러리, 리눅스 자체 내장 라이브러리를 구분
+7. json으로 저장
