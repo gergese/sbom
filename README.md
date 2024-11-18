@@ -46,4 +46,4 @@ sudo sysctl -w kernel.yama.ptrace_scope=0 => ptrace 차단
 
 
 6. apache 같은 서비스에서 자체적으로 사용하는 라이브러리, 참조하는데 사용하는 라이브러리, 리눅스 자체 내장 라이브러리를 구분
-7. json으로 저장１
+7. json으로 저장
