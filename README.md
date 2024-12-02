@@ -47,3 +47,15 @@ sudo sysctl -w kernel.yama.ptrace_scope=0 => ptrace 차단
 
 6. apache 같은 서비스에서 자체적으로 사용하는 라이브러리, 참조하는데 사용하는 라이브러리, 리눅스 자체 내장 라이브러리를 구분
 7. json으로 저장
+
+
+
+각 서버 spring에 있는 log4j 버전을 확인하고 취약 유무를 판별
+1. spring 의존성 버전 추출
+=> 기존 추출 방식과 달라 새로 추출
+=> sbom_spring.py - 의존성 추출 코드
+=> sbom_spring_dependencies.json - 추출 결과
+
+2. elk에 올려서 데이터 확인
+
+3. log4j 취약 버전 CVE로 확인하고 비교
