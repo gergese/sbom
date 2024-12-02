@@ -52,6 +52,7 @@ sudo sysctl -w kernel.yama.ptrace_scope=0 => ptrace 차단
 
 각 서버 spring에 있는 log4j 버전을 확인하고 취약 유무를 판별
 1. spring 의존성 버전 추출
+./gradlew dependencies --configuration runtimeClasspath
 => 기존 추출 방식과 달라 새로 추출
 => sbom_spring.py - 의존성 추출 코드
 => sbom_spring_dependencies.json - 추출 결과
