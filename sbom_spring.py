@@ -5,7 +5,27 @@ import subprocess
 # Gradle 명령을 실행할 디렉토리
 gradle_project_dir = "/home/user/spring/hello"
 
-def parse_gradle_dependencies_from_command():
+def get_hw_uuid():
+    """시스템의 하드웨어 UUID 가져오기"""
+    try:
+        # sudo 명령어를 사용하여 dmidecode 실행
+        result = subprocess.run(
+            ["sudo", "dmidecode", "-s", "system-uuid"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        if result.returncode == 0:  # 명령어가 성공적으로 실행된 경우
+            return result.stdout.strip()
+        else:
+            print(f"Error: {result.stderr.strip()}")
+            return "UNKNOWN_UUID"
+    except Exception as e:
+        print(f"Exception occurred: {e}")
+        return "UNKNOWN_UUID"
+
+def parse_gradle_dependencies_from_command(hwid):
+    """Gradle 의존성을 파싱하여 HWID 추가"""
     # Gradle 명령어 실행
     result = subprocess.run(["./gradlew", "dependencies", "--configuration", "runtimeClasspath"], 
                             cwd=gradle_project_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
@@ -32,6 +52,7 @@ def parse_gradle_dependencies_from_command():
                 "group": match.group(2),
                 "dependency": match.group(3),
                 "version": version,  # 버전 업데이트 처리
+                "hwid": hwid  # 시스템 하드웨어 UUID 추가
             }
 
             # 중복 체크: (group, dependency, version)을 tuple로 변환하여 확인
@@ -50,8 +71,11 @@ def parse_gradle_dependencies_from_command():
 
     return dependencies
 
+# 시스템의 하드웨어 UUID 가져오기
+hw_uuid = get_hw_uuid()
+
 # Gradle 명령어에서 의존성 정보 추출
-dependencies = parse_gradle_dependencies_from_command()
+dependencies = parse_gradle_dependencies_from_command(hw_uuid)
 
 # JSON으로 저장
 output_file = "sbom_spring_dependencies.json"
