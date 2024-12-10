@@ -1,1081 +1,1294 @@
 [
-  {
-      "PID": "109003",
-      "libraries": [
-          {
-              "lib_name": "libpcre.so.3",
-              "lib_path": "/lib/x86_64-linux-gnu/libpcre.so.3",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 6
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "libc.so.6",
-              "lib_path": "/lib/x86_64-linux-gnu/libc.so.6",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [
-                      {
-                          "name": "GLIBC_2.2.5"
-                      },
-                      {
-                          "name": "GLIBC_2.2.6"
-                      },
-                      {
-                          "name": "GLIBC_2.3"
-                      },
-                      {
-                          "name": "GLIBC_2.3.2"
-                      },
-                      {
-                          "name": "GLIBC_2.3.3"
-                      },
-                      {
-                          "name": "GLIBC_2.3.4"
-                      },
-                      {
-                          "name": "GLIBC_2.4"
-                      },
-                      {
-                          "name": "GLIBC_2.5"
-                      },
-                      {
-                          "name": "GLIBC_2.6"
-                      },
-                      {
-                          "name": "GLIBC_2.7"
-                      },
-                      {
-                          "name": "GLIBC_2.8"
-                      },
-                      {
-                          "name": "GLIBC_2.9"
-                      },
-                      {
-                          "name": "GLIBC_2.10"
-                      },
-                      {
-                          "name": "GLIBC_2.11"
-                      },
-                      {
-                          "name": "GLIBC_2.12"
-                      },
-                      {
-                          "name": "GLIBC_2.13"
-                      },
-                      {
-                          "name": "GLIBC_2.14"
-                      },
-                      {
-                          "name": "GLIBC_2.15"
-                      },
-                      {
-                          "name": "GLIBC_2.16"
-                      },
-                      {
-                          "name": "GLIBC_2.17"
-                      },
-                      {
-                          "name": "GLIBC_2.18"
-                      },
-                      {
-                          "name": "GLIBC_2.22"
-                      },
-                      {
-                          "name": "GLIBC_2.23"
-                      },
-                      {
-                          "name": "GLIBC_2.24"
-                      },
-                      {
-                          "name": "GLIBC_2.25"
-                      },
-                      {
-                          "name": "GLIBC_2.26"
-                      },
-                      {
-                          "name": "GLIBC_2.27"
-                      },
-                      {
-                          "name": "GLIBC_2.28"
-                      },
-                      {
-                          "name": "GLIBC_2.29"
-                      },
-                      {
-                          "name": "GLIBC_2.30"
-                      },
-                      {
-                          "name": "GLIBC_2.31"
-                      },
-                      {
-                          "name": "GLIBC_2.32"
-                      },
-                      {
-                          "name": "GLIBC_2.33"
-                      },
-                      {
-                          "name": "GLIBC_2.34"
-                      },
-                      {
-                          "name": "GLIBC_2.35"
-                      },
-                      {
-                          "name": "GLIBC_PRIVATE"
-                      }
-                  ],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "ld-linux-x86-64.so.2",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 40
-                              },
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 39
-                              },
-                              {
-                                  "name": "GLIBC_PRIVATE",
-                                  "version": 38
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "ld-linux-x86-64.so.2",
-              "lib_path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [
-                      {
-                          "name": "GLIBC_2.2.5"
-                      },
-                      {
-                          "name": "GLIBC_2.3"
-                      },
-                      {
-                          "name": "GLIBC_2.4"
-                      },
-                      {
-                          "name": "GLIBC_2.34"
-                      },
-                      {
-                          "name": "GLIBC_2.35"
-                      },
-                      {
-                          "name": "GLIBC_PRIVATE"
-                      }
-                  ],
-                  "gnu_version_r": []
-              }
-          },
-          {
-              "lib_name": "libaprutil-1.so.0",
-              "lib_path": "/lib/x86_64-linux-gnu/libaprutil-1.so.0",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libcrypt.so.1",
-                          "ref_ver_info": [
-                              {
-                                  "name": "XCRYPT_2.0",
-                                  "version": 6
-                              }
-                          ]
-                      },
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 8
-                              },
-                              {
-                                  "name": "GLIBC_2.25",
-                                  "version": 7
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "libcrypt.so.1",
-              "lib_path": "/lib/x86_64-linux-gnu/libcrypt.so.1",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [
-                      {
-                          "name": "GLIBC_2.2.5"
-                      },
-                      {
-                          "name": "XCRYPT_2.0"
-                      },
-                      {
-                          "name": "XCRYPT_4.3"
-                      },
-                      {
-                          "name": "XCRYPT_4.4"
-                      }
-                  ],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 10
-                              },
-                              {
-                                  "name": "GLIBC_2.25",
-                                  "version": 9
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 8
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 7
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 6
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "libexpat.so.1",
-              "lib_path": "/lib/x86_64-linux-gnu/libexpat.so.1",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.25",
-                                  "version": 6
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "libapr-1.so.0",
-              "lib_path": "/lib/x86_64-linux-gnu/libapr-1.so.0",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libuuid.so.1",
-                          "ref_ver_info": [
-                              {
-                                  "name": "UUID_1.0",
-                                  "version": 15
-                              }
-                          ]
-                      },
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.25",
-                                  "version": 17
-                              },
-                              {
-                                  "name": "GLIBC_2.32",
-                                  "version": 16
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 14
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 13
-                              },
-                              {
-                                  "name": "GLIBC_2.33",
-                                  "version": 12
-                              },
-                              {
-                                  "name": "GLIBC_2.16",
-                                  "version": 11
-                              },
-                              {
-                                  "name": "GLIBC_2.3.3",
-                                  "version": 10
-                              },
-                              {
-                                  "name": "GLIBC_2.15",
-                                  "version": 9
-                              },
-                              {
-                                  "name": "GLIBC_2.10",
-                                  "version": 8
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 7
-                              },
-                              {
-                                  "name": "GLIBC_2.9",
-                                  "version": 6
-                              },
-                              {
-                                  "name": "GLIBC_2.3.2",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.34",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "libuuid.so.1",
-              "lib_path": "/lib/x86_64-linux-gnu/libuuid.so.1",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [
-                      {
-                          "name": "UUID_1.0"
-                      },
-                      {
-                          "name": "UUID_2.20"
-                      },
-                      {
-                          "name": "UUID_2.31"
-                      },
-                      {
-                          "name": "UUID_2.36"
-                      },
-                      {
-                          "name": "UUIDD_PRIVATE"
-                      }
-                  ],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "ld-linux-x86-64.so.2",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 10
-                              }
-                          ]
-                      },
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 14
-                              },
-                              {
-                                  "name": "GLIBC_2.25",
-                                  "version": 13
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 12
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 11
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 9
-                              },
-                              {
-                                  "name": "GLIBC_2.7",
-                                  "version": 8
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 7
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "ld-linux-x86-64.so.2",
-              "lib_path": "/lib64/ld-linux-x86-64.so.2",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [
-                      {
-                          "name": "GLIBC_2.2.5"
-                      },
-                      {
-                          "name": "GLIBC_2.3"
-                      },
-                      {
-                          "name": "GLIBC_2.4"
-                      },
-                      {
-                          "name": "GLIBC_2.34"
-                      },
-                      {
-                          "name": "GLIBC_2.35"
-                      },
-                      {
-                          "name": "GLIBC_PRIVATE"
-                      }
-                  ],
-                  "gnu_version_r": []
-              }
-          },
-          {
-              "lib_name": "mod_access_compat.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_access_compat.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_alias.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_alias.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_auth_basic.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_auth_basic.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_authn_core.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_authn_core.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_authn_file.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_authn_file.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_authz_core.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_authz_core.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_authz_host.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_authz_host.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_authz_user.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_authz_user.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_autoindex.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_autoindex.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 6
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_deflate.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_deflate.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "libz.so.1",
-              "lib_path": "/lib/x86_64-linux-gnu/libz.so.1",
-              "lib_type": "system",
-              "lib_version": {
-                  "gnu_version_d": [
-                      {
-                          "name": "ZLIB_1.2.0"
-                      },
-                      {
-                          "name": "ZLIB_1.2.0.2"
-                      },
-                      {
-                          "name": "ZLIB_1.2.0.8"
-                      },
-                      {
-                          "name": "ZLIB_1.2.2"
-                      },
-                      {
-                          "name": "ZLIB_1.2.2.3"
-                      },
-                      {
-                          "name": "ZLIB_1.2.2.4"
-                      },
-                      {
-                          "name": "ZLIB_1.2.3.3"
-                      },
-                      {
-                          "name": "ZLIB_1.2.3.4"
-                      },
-                      {
-                          "name": "ZLIB_1.2.3.5"
-                      },
-                      {
-                          "name": "ZLIB_1.2.5.1"
-                      },
-                      {
-                          "name": "ZLIB_1.2.5.2"
-                      },
-                      {
-                          "name": "ZLIB_1.2.7.1"
-                      },
-                      {
-                          "name": "ZLIB_1.2.9"
-                      }
-                  ],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 18
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 17
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 16
-                              },
-                              {
-                                  "name": "GLIBC_2.3.4",
-                                  "version": 15
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_dir.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_dir.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_env.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_env.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_filter.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_filter.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_mime.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_mime.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_mpm_event.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_mpm_event.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.32",
-                                  "version": 6
-                              },
-                              {
-                                  "name": "GLIBC_2.14",
-                                  "version": 5
-                              },
-                              {
-                                  "name": "GLIBC_2.34",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_negotiation.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_negotiation.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.3",
-                                  "version": 4
-                              },
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_reqtimeout.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_reqtimeout.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_setenvif.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_setenvif.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          },
-          {
-              "lib_name": "mod_status.so",
-              "lib_path": "/usr/lib/apache2/modules/mod_status.so",
-              "lib_type": "external",
-              "lib_version": {
-                  "gnu_version_d": [],
-                  "gnu_version_r": [
-                      {
-                          "ref_lib": "libc.so.6",
-                          "ref_ver_info": [
-                              {
-                                  "name": "GLIBC_2.4",
-                                  "version": 3
-                              },
-                              {
-                                  "name": "GLIBC_2.2.5",
-                                  "version": 2
-                              }
-                          ]
-                      }
-                  ]
-              }
-          }
-      ]
-  }
+    {
+        "lib_name": "libpcre.so.3",
+        "lib_path": "/lib/x86_64-linux-gnu/libpcre.so.3",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libc.so.6",
+        "lib_path": "/lib/x86_64-linux-gnu/libc.so.6",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "GLIBC_2.2.5"
+                },
+                {
+                    "name": "GLIBC_2.2.6"
+                },
+                {
+                    "name": "GLIBC_2.3"
+                },
+                {
+                    "name": "GLIBC_2.3.2"
+                },
+                {
+                    "name": "GLIBC_2.3.3"
+                },
+                {
+                    "name": "GLIBC_2.3.4"
+                },
+                {
+                    "name": "GLIBC_2.4"
+                },
+                {
+                    "name": "GLIBC_2.5"
+                },
+                {
+                    "name": "GLIBC_2.6"
+                },
+                {
+                    "name": "GLIBC_2.7"
+                },
+                {
+                    "name": "GLIBC_2.8"
+                },
+                {
+                    "name": "GLIBC_2.9"
+                },
+                {
+                    "name": "GLIBC_2.10"
+                },
+                {
+                    "name": "GLIBC_2.11"
+                },
+                {
+                    "name": "GLIBC_2.12"
+                },
+                {
+                    "name": "GLIBC_2.13"
+                },
+                {
+                    "name": "GLIBC_2.14"
+                },
+                {
+                    "name": "GLIBC_2.15"
+                },
+                {
+                    "name": "GLIBC_2.16"
+                },
+                {
+                    "name": "GLIBC_2.17"
+                },
+                {
+                    "name": "GLIBC_2.18"
+                },
+                {
+                    "name": "GLIBC_2.22"
+                },
+                {
+                    "name": "GLIBC_2.23"
+                },
+                {
+                    "name": "GLIBC_2.24"
+                },
+                {
+                    "name": "GLIBC_2.25"
+                },
+                {
+                    "name": "GLIBC_2.26"
+                },
+                {
+                    "name": "GLIBC_2.27"
+                },
+                {
+                    "name": "GLIBC_2.28"
+                },
+                {
+                    "name": "GLIBC_2.29"
+                },
+                {
+                    "name": "GLIBC_2.30"
+                },
+                {
+                    "name": "GLIBC_2.31"
+                },
+                {
+                    "name": "GLIBC_2.32"
+                },
+                {
+                    "name": "GLIBC_2.33"
+                },
+                {
+                    "name": "GLIBC_2.34"
+                },
+                {
+                    "name": "GLIBC_2.35"
+                },
+                {
+                    "name": "GLIBC_PRIVATE"
+                }
+            ],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "ld-linux-x86-64.so.2",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 40
+                        },
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 39
+                        },
+                        {
+                            "name": "GLIBC_PRIVATE",
+                            "version": 38
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "ld-linux-x86-64.so.2",
+        "lib_path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "GLIBC_2.2.5"
+                },
+                {
+                    "name": "GLIBC_2.3"
+                },
+                {
+                    "name": "GLIBC_2.4"
+                },
+                {
+                    "name": "GLIBC_2.34"
+                },
+                {
+                    "name": "GLIBC_2.35"
+                },
+                {
+                    "name": "GLIBC_PRIVATE"
+                }
+            ],
+            "gnu_version_r": []
+        }
+    },
+    {
+        "lib_name": "libaprutil-1.so.0",
+        "lib_path": "/lib/x86_64-linux-gnu/libaprutil-1.so.0",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libcrypt.so.1",
+                    "ref_ver_info": [
+                        {
+                            "name": "XCRYPT_2.0",
+                            "version": 6
+                        }
+                    ]
+                },
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 8
+                        },
+                        {
+                            "name": "GLIBC_2.25",
+                            "version": 7
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libcrypt.so.1",
+        "lib_path": "/lib/x86_64-linux-gnu/libcrypt.so.1",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "GLIBC_2.2.5"
+                },
+                {
+                    "name": "XCRYPT_2.0"
+                },
+                {
+                    "name": "XCRYPT_4.3"
+                },
+                {
+                    "name": "XCRYPT_4.4"
+                }
+            ],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 10
+                        },
+                        {
+                            "name": "GLIBC_2.25",
+                            "version": 9
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 8
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 7
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libexpat.so.1",
+        "lib_path": "/lib/x86_64-linux-gnu/libexpat.so.1",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.25",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libapr-1.so.0",
+        "lib_path": "/lib/x86_64-linux-gnu/libapr-1.so.0",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libuuid.so.1",
+                    "ref_ver_info": [
+                        {
+                            "name": "UUID_1.0",
+                            "version": 15
+                        }
+                    ]
+                },
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.25",
+                            "version": 17
+                        },
+                        {
+                            "name": "GLIBC_2.32",
+                            "version": 16
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 14
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 13
+                        },
+                        {
+                            "name": "GLIBC_2.33",
+                            "version": 12
+                        },
+                        {
+                            "name": "GLIBC_2.16",
+                            "version": 11
+                        },
+                        {
+                            "name": "GLIBC_2.3.3",
+                            "version": 10
+                        },
+                        {
+                            "name": "GLIBC_2.15",
+                            "version": 9
+                        },
+                        {
+                            "name": "GLIBC_2.10",
+                            "version": 8
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 7
+                        },
+                        {
+                            "name": "GLIBC_2.9",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.3.2",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.34",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libuuid.so.1",
+        "lib_path": "/lib/x86_64-linux-gnu/libuuid.so.1",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "UUID_1.0"
+                },
+                {
+                    "name": "UUID_2.20"
+                },
+                {
+                    "name": "UUID_2.31"
+                },
+                {
+                    "name": "UUID_2.36"
+                },
+                {
+                    "name": "UUIDD_PRIVATE"
+                }
+            ],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "ld-linux-x86-64.so.2",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 10
+                        }
+                    ]
+                },
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 14
+                        },
+                        {
+                            "name": "GLIBC_2.25",
+                            "version": 13
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 12
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 11
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 9
+                        },
+                        {
+                            "name": "GLIBC_2.7",
+                            "version": 8
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 7
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "ld-linux-x86-64.so.2",
+        "lib_path": "/lib64/ld-linux-x86-64.so.2",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "GLIBC_2.2.5"
+                },
+                {
+                    "name": "GLIBC_2.3"
+                },
+                {
+                    "name": "GLIBC_2.4"
+                },
+                {
+                    "name": "GLIBC_2.34"
+                },
+                {
+                    "name": "GLIBC_2.35"
+                },
+                {
+                    "name": "GLIBC_PRIVATE"
+                }
+            ],
+            "gnu_version_r": []
+        }
+    },
+    {
+        "lib_name": "mod_access_compat.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_access_compat.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_alias.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_alias.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_auth_basic.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_auth_basic.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_authn_core.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_authn_core.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_authn_file.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_authn_file.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_authz_core.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_authz_core.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_authz_host.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_authz_host.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_authz_user.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_authz_user.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_autoindex.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_autoindex.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_deflate.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_deflate.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libz.so.1",
+        "lib_path": "/lib/x86_64-linux-gnu/libz.so.1",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "ZLIB_1.2.0"
+                },
+                {
+                    "name": "ZLIB_1.2.0.2"
+                },
+                {
+                    "name": "ZLIB_1.2.0.8"
+                },
+                {
+                    "name": "ZLIB_1.2.2"
+                },
+                {
+                    "name": "ZLIB_1.2.2.3"
+                },
+                {
+                    "name": "ZLIB_1.2.2.4"
+                },
+                {
+                    "name": "ZLIB_1.2.3.3"
+                },
+                {
+                    "name": "ZLIB_1.2.3.4"
+                },
+                {
+                    "name": "ZLIB_1.2.3.5"
+                },
+                {
+                    "name": "ZLIB_1.2.5.1"
+                },
+                {
+                    "name": "ZLIB_1.2.5.2"
+                },
+                {
+                    "name": "ZLIB_1.2.7.1"
+                },
+                {
+                    "name": "ZLIB_1.2.9"
+                }
+            ],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 18
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 17
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 16
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_dir.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_dir.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_env.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_env.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_filter.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_filter.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_mime.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_mime.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_mpm_event.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_mpm_event.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.32",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.34",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_negotiation.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_negotiation.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_reqtimeout.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_reqtimeout.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_setenvif.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_setenvif.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "mod_status.so",
+        "lib_path": "/usr/lib/apache2/modules/mod_status.so",
+        "lib_type": "external",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libnss_systemd.so.2",
+        "lib_path": "/lib/x86_64-linux-gnu/libnss_systemd.so.2",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "ld-linux-x86-64.so.2",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 12
+                        }
+                    ]
+                },
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.9",
+                            "version": 20
+                        },
+                        {
+                            "name": "GLIBC_2.10",
+                            "version": 19
+                        },
+                        {
+                            "name": "GLIBC_2.25",
+                            "version": 18
+                        },
+                        {
+                            "name": "GLIBC_2.28",
+                            "version": 17
+                        },
+                        {
+                            "name": "GLIBC_2.16",
+                            "version": 16
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 15
+                        },
+                        {
+                            "name": "GLIBC_2.8",
+                            "version": 14
+                        },
+                        {
+                            "name": "GLIBC_2.33",
+                            "version": 13
+                        },
+                        {
+                            "name": "GLIBC_2.3.2",
+                            "version": 11
+                        },
+                        {
+                            "name": "GLIBC_2.7",
+                            "version": 10
+                        },
+                        {
+                            "name": "GLIBC_2.3",
+                            "version": 9
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 8
+                        },
+                        {
+                            "name": "GLIBC_2.26",
+                            "version": 7
+                        },
+                        {
+                            "name": "GLIBC_2.30",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.17",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.34",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 3
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libnss_sss.so.2",
+        "lib_path": "/lib/x86_64-linux-gnu/libnss_sss.so.2",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "EXPORTED"
+                }
+            ],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.28",
+                            "version": 10
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 9
+                        },
+                        {
+                            "name": "GLIBC_2.8",
+                            "version": 8
+                        },
+                        {
+                            "name": "GLIBC_2.33",
+                            "version": 7
+                        },
+                        {
+                            "name": "GLIBC_2.4",
+                            "version": 6
+                        },
+                        {
+                            "name": "GLIBC_2.7",
+                            "version": 5
+                        },
+                        {
+                            "name": "GLIBC_2.3.4",
+                            "version": 4
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "lib_name": "libgcc_s.so.1",
+        "lib_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "lib_type": "system",
+        "lib_version": {
+            "gnu_version_d": [
+                {
+                    "name": "GCC_3.0"
+                },
+                {
+                    "name": "GCC_3.3"
+                },
+                {
+                    "name": "GCC_3.3.1"
+                },
+                {
+                    "name": "GCC_3.4"
+                },
+                {
+                    "name": "GCC_3.4.2"
+                },
+                {
+                    "name": "GCC_3.4.4"
+                },
+                {
+                    "name": "GCC_4.0.0"
+                },
+                {
+                    "name": "GCC_4.2.0"
+                },
+                {
+                    "name": "GCC_4.3.0"
+                },
+                {
+                    "name": "GCC_4.7.0"
+                },
+                {
+                    "name": "GCC_4.8.0"
+                },
+                {
+                    "name": "GCC_7.0.0"
+                },
+                {
+                    "name": "GCC_12.0.0"
+                }
+            ],
+            "gnu_version_r": [
+                {
+                    "ref_lib": "libc.so.6",
+                    "ref_ver_info": [
+                        {
+                            "name": "GLIBC_2.35",
+                            "version": 18
+                        },
+                        {
+                            "name": "GLIBC_2.14",
+                            "version": 17
+                        },
+                        {
+                            "name": "GLIBC_2.34",
+                            "version": 16
+                        },
+                        {
+                            "name": "GLIBC_2.2.5",
+                            "version": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 ]
