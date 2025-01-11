@@ -61,7 +61,7 @@ def get_lib_type(library_path):
     system_paths = ["/usr/lib", "/lib", "/lib64"]
     external_paths = ["/usr/lib/apache2/modules", "/usr/share", "/usr/local/lib"]
     if any(library_path.startswith(path) for path in external_paths):
-        return "external"
+        return "referenced"
     elif any(library_path.startswith(path) for path in system_paths):
         return "system"
 
